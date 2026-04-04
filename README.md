@@ -2,8 +2,14 @@
 
 ## Q1 - Currency Converter App
 - Converts INR, USD, EUR, JPY
-- Supports Dark Mode
-- Built using Java & Android Studio
+- Uses Spinner for selection
+- Includes Light/Dark theme toggle
 
-## GitHub Structure
-- Q1: CurrencyConverterApp
+## Q2 - Media Player App
+- Plays audio from device (local file)
+- Streams video from URL
+- Includes controls: Play, Pause, Stop, Restart
+
+## Project Structure
+- CurrencyConverterApp → Q1
+- MediaPlayerApp → Q2
