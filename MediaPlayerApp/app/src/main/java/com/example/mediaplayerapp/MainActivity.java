@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Load Video URL
         openURL.setOnClickListener(v -> {
-            String url = "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4";
+            String url = "https://cdn.pixabay.com/video/2026/01/08/326677_large.mp4";
             videoView.setVideoURI(Uri.parse(url));
             Toast.makeText(this, "Video Loaded", Toast.LENGTH_SHORT).show();
         });
